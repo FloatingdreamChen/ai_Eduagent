@@ -1,0 +1,45 @@
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# ML model weights (downloadable from Hugging Face)
+models/
+AGENTS.md
+
+# Environment secrets
+.env.local
+.env
+
+# Tests
+demo/
+demo_01/
+samples/
+
+# macOS
+.DS_Store
+
+# Database
+*.db
+
+# Build artifacts
+dist/
+build/
+
+# Cache and temp files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.swp
+*.swo
+*.bak
+
